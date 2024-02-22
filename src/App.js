@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { GiLoveSong } from "react-icons/gi";
 import { TbPlayerTrackNextFilled, TbPlayerTrackPrevFilled } from "react-icons/tb";
 import { ImPause2, ImPlay2 } from "react-icons/im";
-import a1 from './music/classical.mp3' 
-import a2 from './music/countdown_30_second.mp3' 
+// import a1 from './music/classical.mp3' 
+// import a2 from './music/countdown_30_second.mp3' 
 
 
 const App = () => {
