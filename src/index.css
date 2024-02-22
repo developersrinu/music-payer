@@ -29,7 +29,14 @@
   justify-content: center;
   gap: 10px;
   font-size: large;
+  overflow: hidden;
+  padding: 1;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  cursor: pointer;
+  
 }
+
 
 
 .addSong{
@@ -44,7 +51,10 @@
   justify-content: space-around;
   gap: 10px;
   font-size: x-large;
+  /* background-color:#020F65; */
+  color:white;
   background-color:#020F65;
+  -webkit-line-clamp: 1;
 }
 
 .song-info-div{
@@ -85,12 +95,14 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+ 
 }
 .icon{
   font-size:10rem;
 }
 .song-name{
   font-size:2rem;
+  -webkit-line-clamp: 1;
 }
 
 .op{
@@ -124,5 +136,8 @@
   /* .max-width {
     width: 60%;
   } */
+  body{
+    font-size: 2px;
+  }
 }
 
